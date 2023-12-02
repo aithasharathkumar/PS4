@@ -1,0 +1,12 @@
+<suite name="ExtentReports" verbose="1">
+
+<test name="loginData">
+<classes>
+<class name="tests.LoginTest"></class>
+<methods>
+    <include name="testLogin"></include> 
+  </methods>
+</classes>
+</test>
+
+</suite>

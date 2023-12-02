@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ExtentReports" class="navigator-link">
+              <span class="suite-name border-passed">ExtentReports</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ExtentReports" class="navigator-link ">
+                    <span>C:\Users\MYPC\eclipse-workspace\PS4\src\test\java\utilities\MySuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ExtentReports" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ExtentReports" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ExtentReports" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ExtentReports" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ExtentReports" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ExtentReports" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ExtentReports" class="hide-methods passed suite-ExtentReports"> (hide)</a> <!-- hide-methods passed suite-ExtentReports -->
+                      <a href="#" panel-name="suite-ExtentReports" class="show-methods passed suite-ExtentReports"> (show)</a> <!-- show-methods passed suite-ExtentReports -->
+                    </span>
+                    <div class="method-list-content passed suite-ExtentReports">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExtentReports" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLogin(sk100@gmail.com, admins)">testLogin(sk100@gmail.com, admins)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExtentReports" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLogin(sk9@gmail.com, adminn)">testLogin(sk9@gmail.com, adminn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ExtentReports -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ExtentReports" class="panel ExtentReports">
+          <div class="suite-ExtentReports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(sk100@gmail.com, admins)">
+                  </a> <!-- testLogin(sk100@gmail.com, admins) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(sk100@gmail.com,admins)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(sk9@gmail.com, adminn)">
+                  </a> <!-- testLogin(sk9@gmail.com, adminn) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(sk9@gmail.com,adminn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ExtentReports-class-passed -->
+        </div> <!-- panel ExtentReports -->
+        <div panel-name="test-xml-ExtentReports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MYPC\eclipse-workspace\PS4\src\test\java\utilities\MySuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ExtentReports&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;loginData&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- loginData --&gt;
+&lt;/suite&gt; &lt;!-- ExtentReports --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ExtentReports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ExtentReports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">loginData (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ExtentReports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ExtentReports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ExtentReports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ExtentReports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ExtentReports');
+function tableData_ExtentReports() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLogin')
+data.setCell(0, 2, 'tests.LoginTest')
+data.setCell(0, 3, 2519);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin')
+data.setCell(1, 2, 'tests.LoginTest')
+data.setCell(1, 3, 2471);
+window.suiteTableData['ExtentReports']= { tableData: data, tableDiv: 'times-div-ExtentReports'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-ExtentReports">
+              </div> <!-- times-div-ExtentReports -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ExtentReports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ExtentReports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ExtentReports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ExtentReports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">InitalizeExtentReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">getBrowser(org.testng.TestRunner@93501be)</span>
+                <span class="method-start">623 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(sk9@gmail.com, adminn)</span>
+                <span class="method-start">9396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">generateTestStatus(public void tests.LoginTest.testLogin(java.lang.String,java.lang.String) throws java.io.IOException,...)</span>
+                <span class="method-start">11918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLogin(sk100@gmail.com, admins)</span>
+                <span class="method-start">11932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">generateTestStatus(public void tests.LoginTest.testLogin(java.lang.String,java.lang.String) throws java.io.IOException,...)</span>
+                <span class="method-start">14414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">14426 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReports</span>
+                <span class="method-start">14736 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
